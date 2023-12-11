@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha384-o5bHJD6c5oSoWq8voN0t6iFbJLOz8FS+8yiz4z50z2fN1Nq4c3lETCVnQUTvNj6T" crossorigin="anonymous">
+    <style>
+    
+        .contact-container {
+            max-width: 800px; 
+            margin: auto; 
+            padding: 20px; 
+        }
+
+        .contact-form {
+            margin-top: 20px; 
+        }
+
+        .contact-form p {
+            margin-bottom: 0;  
+        }
+    </style>
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <header class="bg-dark text-white text-center py-3">
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Categorías
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="anillos.html">Anillos</a>
+                                <a class="dropdown-item" href="pulseras.html">Pulseras</a>
+                                <a class="dropdown-item" href="collares.html">Collares</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i> Carrito</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+        <div class="container text-center">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta? ¡Contáctanos!</p>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Escriba su mensaje"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+
+            <div class="contact-info mt-4">
+                <p>Puedes contactarnos también a través de nuestro Instagram:</p>
+                <p><a href="https://www.instagram.com/kw.storecr/" target="_blank">Instagram: @kw.storecr</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-2">
+        <p>&copy; 2023 Tienda de Accesorios</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

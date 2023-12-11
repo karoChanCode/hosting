@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha384-o5bHJD6c5oSoWq8voN0t6iFbJLOz8FS+8yiz4z50z2fN1Nq4c3lETCVnQUTvNj6T" crossorigin="anonymous">
+    <style>
+        .product-container1 {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .product-item1 {
+            width: 30%;
+            margin: 0 15px 30px 0;
+            float: left;
+            padding: 30px;
+            text-align: center;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            background-color: #fff;
+            overflow: hidden;  
+            transition: transform 0.3s;  
+        }
+
+        .product-item1 img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s;  
+        }
+
+        .product-item1:hover img {
+            transform: scale(3.2);  
+        }
+
+        .clearfix {
+            clear: both;
+        }
+    </style>
+    <title>Pulseras</title>
+</head>
+
+<body>
+
+    <!-- Banner Full Width -->
+    <div class="banner">
+        <div class="banner-content">
+            <h2 class="text-center">Descubre Nuestra Colección de Pulseras</h2>
+            <p class="text-center">Encuentra la pulsera perfecta para complementar tu estilo.</p>
+        </div>
+    </div>
+
+    <header class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Categorías
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="anillos.html">Anillos</a>
+                                <a class="dropdown-item" href="pulseras.html">Pulseras</a>
+                                <a class="dropdown-item" href="collares.html">Collares</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i> Carrito</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Productos - Pulseras -->
+    <section id="pulseras" class="section">
+        <div class="product-container1">
+            <!-- Producto - Pulsera 1 -->
+            <div class="product-item1">
+                <img src="img/pulsera1.png" alt="Pulsera 1">
+                <h3>Pulsera de Cuero</h3>
+                <p>Descripción: Una pulsera de cuero para un estilo casual y moderno.</p>
+                <p>Precio: $35.00</p>
+                <button class="btn btn-primary">Agregar al Carrito</button>
+            </div>
+
+            <!-- Producto - Pulsera 2 -->
+            <div class="product-item1">
+                <img src="img/pulsera2.png" alt="Pulsera 2">
+                <h3>Pulsera de Cuentas</h3>
+                <p>Descripción: Una pulsera colorida con cuentas para un toque alegre.</p>
+                <p>Precio: $20.00</p>
+                <button class="btn btn-primary">Agregar al Carrito</button>
+            </div>
+
+            <!-- Producto - Pulsera 3 -->
+            <div class="product-item1">
+                <img src="img/pulsera3.png" alt="Pulsera 3">
+                <h3>Pulsera de Plata</h3>
+                <p>Descripción: Una pulsera elegante de plata para ocasiones especiales.</p>
+                <p>Precio: $50.00</p>
+                <button class="btn btn-primary">Agregar al Carrito</button>
+            </div>
+
+            <!-- Producto - Pulsera 4 -->
+            <div class="product-item1">
+                <img src="img/pulsera4.png" alt="Pulsera 4">
+                <h3>Pulsera de Perlas</h3>
+                <p>Descripción: Una pulsera con detalles de perlas para un look refinado.</p>
+                <p>Precio: $40.00</p>
+                <button class="btn btn-primary">Agregar al Carrito</button>
+            </div>
+
+            <!-- Producto - Pulsera 5 -->
+            <div class="product-item1">
+                <img src="img/pulsera5.png" alt="Pulsera 5">
+                <h3>Pulsera Minimalista</h3>
+                <p>Descripción: Una pulsera minimalista para un estilo sencillo.</p>
+                <p>Precio: $30.00</p>
+                <button class="btn btn-primary">Agregar al Carrito</button>
+            </div>
+
+            <!-- Producto - Pulsera 6 -->
+            <div class="product-item1">
+                <img src="img/pulsera6.png" alt="Pulsera 6">
+                <h3>Pulsera de Acero</h3>
+                <p>Descripción: Una pulsera resistente de acero para un estilo duradero.</p>
+                <p>Precio: $45.00</p>
+                <button class="btn btn-primary">Agregar al Carrito</button>
+            </div>
+
+            <!-- Producto - Pulsera 7 -->
+            <div class="product-item1">
+                <img src="img/pulsera7.png" alt="Pulsera 7">
+                <h3>Pulsera Tejida</h3>
+                <p>Descripción: Una pulsera tejida a mano con detalles únicos.</p>
+                <p>Precio: $25.00</p>
+                <button class="btn btn-primary">Agregar al Carrito</button>
+            </div>
+
+            <!-- Producto - Pulsera 8 -->
+            <div class="product-item1">
+                <img src="img/pulsera2.png" alt="Pulsera 8">
+                <h3>Pulsera de Piedras</h3>
+                <p>Descripción: Una pulsera con piedras preciosas para un toque elegante.</p>
+                <p>Precio: $60.00</p>
+                <button class="btn btn-primary">Agregar al Carrito</button>
+            </div>
+
+            <!-- Producto - Pulsera 9 -->
+            <div class="product-item1">
+                <img src="img/pulsera3.png" alt="Pulsera 9">
+                <h3>Pulsera de Oro</h3>
+                <p>Descripción: Una pulsera lujosa de oro para ocasiones especiales.</p>
+                <p>Precio: $80.00</p>
+                <button class="btn btn-primary">Agregar al Carrito</button>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-2">
+        <p>&copy; 2023 Tienda de Accesorios</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
